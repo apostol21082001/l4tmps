@@ -3,6 +3,7 @@
 # Labortator nr.4
 
 # Apostol Mihail,ti_204
+In proiect sunt utilizate patru design pattern-uri: Command, Iterator, Chain of Responsibility și Interpreter.Mai jos sunt secvente de cod cu pattern-urile date si o descriere referitor la ele.Acestea funcționează împreună pentru a crea un sistem modular, ușor de înțeles și de întreținut.
 
 # Chain of Responsibility
 Acest cod utilizează șablonul de design Chain of Responsibility pentru a permite căutarea într-o bibliotecă prin intermediul mai multor criterii.
