@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+    <h1>Library</h1>
+	<div id="app">
+		<form id="add-book-form">
+			<label for="title">Title:</label>
+			<input type="text" id="title" name="title">
+			<label for="author">Author:</label>
+			<input type="text" id="author" name="author">
+			<button type="submit">Add book</button>
+		</form>
+		<form id="search-form">
+			<label for="query">Search:</label>
+			<input type="text" id="query" name="query" placeholder="Ex.:title Front">
+			<button type="submit">Search</button>
+		</form>
+		<div id="books-list">
+			<h2>List of books:</h2>
+			<ul id="book-items"></ul>
+		</div>
+		<div id="search-results-list">
+			<h2>Search results</h2>
+			<ul id="search-results"></ul>
+			<button id="clear-search-results">Delete searches</button>
+		</div>
+	</div>
+</nav>
+    <script src="app.js"></script>
+</body>
+</html>
